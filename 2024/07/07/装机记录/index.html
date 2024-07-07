@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>装机记录 | kano_blog</title>
+    <title>装机记录 | KANOBLOG</title>
     <meta name="author" content="kano" />
-    <meta name="description" content="" />
+    <meta name="description" content="我是人间惆怅客" />
     <meta name="keywords" content="" />
     <meta
         name="viewport"
@@ -63,7 +63,7 @@
         <div id="menu" :class="{ hidden: hiddenMenu, 'menu-color': menuColor}">
     <nav id="desktop-menu">
         <a class="title" href="/">
-            <span>KANO_BLOG</span>
+            <span>KANOBLOG</span>
         </a>
         
         <a href="/">
@@ -95,7 +95,7 @@
     <nav id="mobile-menu">
         <div class="title" @click="showMenuItems = !showMenuItems">
             <i class="fa-solid fa-bars fa-fw"></i>
-            <span>&emsp;KANO_BLOG</span>
+            <span>&emsp;KANOBLOG</span>
         </div>
         <transition name="slide">
             <div class="items" v-show="showMenuItems">
@@ -167,10 +167,27 @@
         </span>
         
         
+        <span class="tags">
+            <span class="icon">
+                <i class="fa-solid fa-tags fa-fw"></i>
+            </span>
+            
+            
+            <span class="tag">
+                
+                <a href="/tags/diy/" style="color: #00bcd4">
+                    diy
+                </a>
+            </span>
+            
+        </span>
+        
     </div>
     
     <div class="content" v-pre>
-        
+        <p>一台主机配置需要：CPU、主板、散热、内存、硬盘、显卡、电源、机箱  </p>
+<p>CPU<br>i5 13600F 14核心 20线程 京东在售1850  </p>
+
     </div>
     
     
@@ -185,7 +202,7 @@
     <div id="footer-wrap">
         <div>
             &copy;
-            2022 - 2024 kano_blog
+            2022 - 2024 KANOBLOG
             <span id="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>

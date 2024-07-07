@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Archives | kano_blog</title>
+    <title>Archives | KANOBLOG</title>
     <meta name="author" content="kano" />
-    <meta name="description" content="" />
+    <meta name="description" content="我是人间惆怅客" />
     <meta name="keywords" content="" />
     <meta
         name="viewport"
@@ -59,7 +59,7 @@
         <div id="menu" :class="{ hidden: hiddenMenu, 'menu-color': menuColor}">
     <nav id="desktop-menu">
         <a class="title" href="/">
-            <span>KANO_BLOG</span>
+            <span>KANOBLOG</span>
         </a>
         
         <a href="/">
@@ -91,7 +91,7 @@
     <nav id="mobile-menu">
         <div class="title" @click="showMenuItems = !showMenuItems">
             <i class="fa-solid fa-bars fa-fw"></i>
-            <span>&emsp;KANO_BLOG</span>
+            <span>&emsp;KANOBLOG</span>
         </div>
         <transition name="slide">
             <div class="items" v-show="showMenuItems">
@@ -193,6 +193,21 @@
                 <div class="info">
                     
                     
+                    <span class="tags">
+                        <span class="icon">
+                            <i class="fa-solid fa-tags fa-fw"></i>
+                        </span>
+                        
+                        
+                        <span class="tag">
+                            
+                            <a href="/tags/diy/" style="color: #ffa2c4">
+                                diy
+                            </a>
+                        </span>
+                        
+                    </span>
+                    
                 </div>
             </div>
         </div>
@@ -218,7 +233,7 @@
     <div id="footer-wrap">
         <div>
             &copy;
-            2022 - 2024 kano_blog
+            2022 - 2024 KANOBLOG
             <span id="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
